@@ -44,7 +44,6 @@
     </div>
   </div>
   <div class="row">
-
     <div class="col-md-8">
       <article class="blog-post">
         <div class="blog-hearder">
@@ -63,7 +62,7 @@
              </h4>
              <h5 class="blog-title">Даллас</h5>
              <table class="table table-striped">
-  <thead>
+               <thead>
     <tr>
       <th scope="col">Имя игрока</th>
       <th scope="col">Очки</th>
@@ -72,7 +71,7 @@
       <th scope="col">потери</th>
     </tr>
   </thead>
-  <tbody>
+               <tbody>
     <tr>
       <th scope="row">Лука Дончич</th>
       <td>26</td>
@@ -122,9 +121,8 @@
       <td>1</td>
       <td>0</td>
     </tr>
-
   </tbody>
-</table>
+             </table>
   <h5 class="blog-title">Финикс</h5>
     <table class="table table-striped">
       <thead>
@@ -189,18 +187,36 @@
     </table>
     <br>
     <p>В серии ничья – 2-2</p>
+    <div class="blog-footer">
+      <a href="../index.html" class=" btn btn-light">
+         Вернуться на главный экран
+      </a>
+    </div>
+  </article>
+    <div class="post-comment-form bg-light p-3 rounded">
+      <form class="form" id="form-comment" action="#" method="GET">
 
+        <div>
+          <h4>Оставить комментарий</h4>
+        </div>
+      <div class="form-group mt-2">
+        <label for="name" class="form-label">Ваше Имя</label>
+        <input type="text" name="name" id="name" class="form-control">
+      </div>
+      <div class="form-group mt-2">
+        <label for="email" class="form-label">Ваш Email</label>
+        <input type="email" name="email" id="email" class="form-control">
+      </div>
+      <div class="form-group mt-2">
+        <label for="text" class="form-label">Комментарий</label>
+        <textarea name="text" id="text" class="form-control"></textarea>
+      </div>
+
+      <div class="form-group mt-2">
+        <button type="button" class="btn btn-primary" name="button">Отправить</button>
+      </div>
+      </form>
            </div>
-        </div>
-        <div class="blog-footer">
-          <a href="../index.html" class=" btn btn-light">
-             Вернуться на главный экран
-          </a>
-          <a href="../form.html" class="btn btn-light">
-             Оставить коментарий
-          </a>
-        </div>
-      </article>
     </div>
 
     <div class="col-md-4">
@@ -239,7 +255,6 @@
       </div>
     </div>
   </div>
-</div>
 
 <div class="container">
 <div class="row">
