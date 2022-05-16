@@ -4,3 +4,33 @@
 .blog-post {
   margin-bottom: 4rem;
 }
+.custom-carousel-item {
+display: none;
+}
+
+.custom-carousel-item.active {
+display: block;
+}
+
+.dots-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.dot.active {
+background-color: #000000;
+}
+
+span {
+width: 15px;
+height: 15px;
+border-radius: 50%;
+background-color: gray;
+margin-right: 10px;
+cursor: pointer;
+}
+
+span: last-child {
+margin-right: 0;
+}
